@@ -2,7 +2,11 @@
 
 ¡Bienvenido/a a mi proyecto de página de inicio! 🌟
 
-Este proyecto forma parte del curso Odin Project y consiste en crear una página web completa basada en un diseño proporcionado. El diseño incluye dos imágenes: una muestra la página completa y la otra detalla algunas fuentes y colores utilizados. 🎨
+Este proyecto forma parte del curso [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page#introduction) y consiste en crear una página web completa basada en un diseño proporcionado. El diseño incluye dos imágenes: una muestra la página completa y la otra detalla algunas fuentes y colores utilizados. 🎨
+<p>
+  <img style="width: 300px;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png" alt="landing page a replicar"  />
+  <img style="width: 300px;" src="https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png" alt="landing page a replicar"  />
+  </p> 
 
 ## Descripción del Proyecto
 
@@ -10,15 +14,11 @@ El objetivo de este proyecto es crear una página web lo más cercana posible al
 
 ## Tecnologías Utilizadas
 
-- HTML
-<img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
-  
-- CSS
+<p><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /> 
 <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />
-
-- Git y GitHub
 <img style="margin: 5px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" />
 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" style="margin: 5px"width="50" heigth="50"/>
+</p>
 
 ## Estructura del Proyecto
 
@@ -38,7 +38,7 @@ Las contribuciones son bienvenidas. Siéntase libre de contactarme  para informa
 
 ## Agradecimientos
 
-Agradezco a [The Odin Project](https://www.theodinproject.com/lessons/foundations-landing-page#introduction)por proporcionar este emocionante desafío para mejorar mis habilidades de desarrollo web. ¡Gracias por visitar mi repositorio! Espero que disfrutes explorando mi proyecto. 😊
+Agradezco a [The Odin Project](https://www.theodinproject.com/))por proporcionar este emocionante desafío para mejorar mis habilidades de desarrollo web. ¡Gracias por visitar mi repositorio! Espero que disfrutes explorando mi proyecto. 😊
 
 ## Cómo contactarme? 📫 
 <p>
