@@ -159,6 +159,18 @@ nav{
     text-align: center;
 }
 
+.cta-wrapper{
+    background-color: #3882F6;
+    border-radius: 5px;
+    height:100%;
+    
+}
+
+.cta-content{
+    display: flex;
+
+}
+
 .call-to-action .cta-content {
     display: flex;
     justify-content: center;
@@ -173,13 +185,13 @@ nav{
 .call-to-action .cta-title {
     font-weight: bold;
     font-size: 24px;
-    color: #3882F6;
+    color: #F9FAF8;
 }
 
 .call-to-action button {
-    background-color: transparent;
-    color:  #3882F6;
-    border: 1px solid  #3882F6;
+    background-color:  #3882F6;
+    color: #F9FAF8;
+    border: 1px solid  #F9FAF8;
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
