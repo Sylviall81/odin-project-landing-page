@@ -19,22 +19,26 @@ document.addEventListener("DOMContentLoaded", function() {
     // Iterar sobre los datos y crear los tiles
     tileData.forEach(function(tile) {
          // Crear un div para el tile
+         const tileContainer = document.createElement("div");
+         tileContainer.classList.add("tile-container");
+        
          const tileDiv = document.createElement("div");
          tileDiv.classList.add("info-tile");
 
-        // Crear el contenido del tile (título y subtexto)
+        //Crear el contenido del tile (título y subtexto)
         // const title = document.createElement("h3");
-        // title.textContent = tileData.title;
+        // title.textContent = tile.title;
 
-        // const subtext = document.createElement("p");
-        // subtext.textContent = tileData.subtext;
+        const subtext = document.createElement("p");
+        subtext.textContent = tile.subtext;
 
-        // Añadir el contenido al div del tile
+        //Añadir el contenido al div del tile
         // tileDiv.appendChild(title);
-        // tileDiv.appendChild(subtext);
+        tileContainer.appendChild(subtext);
 
         // Añadir el tile al contenedor principal
-  infoTilesContainer.appendChild(tileDiv);
+        tileContainer.appendChild(tileDiv);
+  infoTilesContainer.appendChild(tileContainer);
      });
  });
 

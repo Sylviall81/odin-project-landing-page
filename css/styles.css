@@ -70,20 +70,20 @@ section{
 }
 
 .hero-wrapper{
-    padding: 40px;
     flex: 1;
 
 }
 
 .hero h1 {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: extra-bold;
     color: #F9FAF8;
 }
 
 .hero p {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: lighter;
 }
 
 .hero button {
@@ -129,28 +129,38 @@ section{
 .info-tiles {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     gap: 10px;
 }
 
-.info-tiles div {
+.tile-container {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 20%;
+    color:gray;
+}
+
+.tile-container > div {
     background-color: #F9FAF8;
     padding: 20px;
     border: 2px solid #3882F6;
     border-radius: 10px;
     text-align: center;
+    width: 100%;
 
 }
+
+
 
 .info-tile {
     background-color: #FFFFFF;
     border: 2px solid #3882F6; /* Borde azul */
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 20px;
     text-align: center;
-    width: 20%;
-    height: 30vh;
+    height: 26vh;
     margin-bottom: 20px;
+    color: gray
     
 }
 
@@ -164,8 +174,14 @@ section{
 
 .quote blockquote {
     font-size: 36px;
-    font-style: italic;
+    font-style: oblique;
     color: #1F2937;
+}
+
+.quote p:nth-child(2){
+    font-size: 17px;
+    font-style: normal;
+    text-align: end;
 }
 
 .call-to-action {
