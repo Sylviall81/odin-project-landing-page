@@ -63,16 +63,17 @@ section{
 
 .hero {
     background-color: #1f2937;
-    padding: 100px 0;
+    display: flex;
     /* text-align: center; */
     align-items: center;
     justify-content: center;
-    
+    padding: 40px 18vw;
 }
 
 .hero-wrapper{
-    flex: 1;
-
+    display: flex;
+    flex:1;
+   
 }
 
 .hero h1 {
@@ -97,7 +98,7 @@ section{
 }
 
 .hero-content{
-    width: 40%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -106,7 +107,7 @@ section{
 .hero-image{
     padding:10px;
     margin: 0 auto;
-    width: 55%;
+    width: 50%;
    
 }
 
