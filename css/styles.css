@@ -57,6 +57,7 @@ nav{
 
 section{
     width: 100vw;
+
 }
 
 
@@ -91,39 +92,41 @@ section{
     color: #FFFFFF;
     border: none;
     padding: 10px 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
 .hero-content{
-    width: 45%;
+    width: 40%;
     display: flex;
     flex-direction: column;
-    
     align-items: flex-start;
+    gap:10px;
 }
 .hero-image{
     padding:10px;
     margin: 0 auto;
-    width: 45%;
+    width: 55%;
    
 }
 
 .information {
     background-color: #F9FAF8;
-    padding: 100px 0;
+    padding: 30px 60px;
     text-align: center;
 }
 
 .info-wrapper{
     flex-direction: column;
-    gap: 40px;
+    height: 100%;
+    gap: 20px;
 }
 
 .information h2 {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+   
 }
 
 .info-tiles {
@@ -142,7 +145,7 @@ section{
 
 .tile-container > div {
     background-color: #F9FAF8;
-    padding: 20px;
+    /* padding: 20px; */
     border: 2px solid #3882F6;
     border-radius: 10px;
     text-align: center;
@@ -158,7 +161,7 @@ section{
     border-radius: 8px;
     padding: 20px;
     text-align: center;
-    height: 26vh;
+    height: 22vh;
     margin-bottom: 20px;
     color: gray
     
@@ -186,29 +189,31 @@ section{
 
 .call-to-action {
     background-color: #F9FAF8;
-    padding: 100px 0;
-    text-align: center;
+  
 }
 
+
 .cta-wrapper{
-    background-color: #3882F6;
-    border-radius: 5px;
-    height:100%;
-    
+    padding: 5%;
+    height:40vh;
+    width: 950px;
 }
 
 .cta-content{
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 100%; 
+    padding: 4%;
     display: flex;
-
-}
-
-.call-to-action .cta-content {
-    display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    
+
 }
+
 
 .call-to-action .cta-text {
+    font-weight: normal;
     text-align: left;
     margin-right: 20px;
 }
@@ -224,7 +229,7 @@ section{
     color: #F9FAF8;
     border: 1px solid  #F9FAF8;
     padding: 10px 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
 }
 

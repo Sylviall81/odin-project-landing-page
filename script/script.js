@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Añadir el tile al contenedor principal
         tileContainer.appendChild(tileDiv);
-  infoTilesContainer.appendChild(tileContainer);
+        infoTilesContainer.appendChild(tileContainer);
      });
  });
 
