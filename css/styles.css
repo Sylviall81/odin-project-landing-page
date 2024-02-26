@@ -12,14 +12,14 @@ body {
 }
 
 .container {
-    width: 90%;
+    width:65%;
     margin: 0 auto;
     display: flex;
 }
 
 .header-wrapper{
-    align-items: flex-end;
-    justify-content: space-around;
+     justify-content: space-between;
+     align-items: baseline;
 
 }
 
@@ -29,6 +29,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top:0;
 }
 
 .header-logo {
@@ -41,10 +43,20 @@ nav a {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+    
 }
+
+nav a:active{
+    color: #3882F6;
+}
+
 nav{
     display: flex;
     align-items: flex-end;
+}
+
+section{
+    width: 100vw;
 }
 
 
@@ -52,6 +64,9 @@ nav{
     background-color: #1f2937;
     padding: 100px 0;
     /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .hero-wrapper{
@@ -134,7 +149,7 @@ nav{
     padding: 20px;
     text-align: center;
     width: 20%;
-    height: 45vh;
+    height: 30vh;
     margin-bottom: 20px;
     
 }
@@ -201,6 +216,11 @@ footer {
     background-color: #1f2937;
     padding: 20px 0;
     text-align: center;
+}
+
+.footer-wrapper{
+    justify-content: center;
+    align-items: center;
 }
 
 footer p {
