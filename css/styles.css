@@ -196,16 +196,16 @@ section{
 .cta-wrapper{
     padding: 5%;
     height:40vh;
-    width: 950px;
+    width: 95vw;
 }
 
 .cta-content{
     background-color: #3882F6;
     border-radius: 5px;
     width: 100%; 
-    padding: 4%;
+    padding: 4% 2%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
 
