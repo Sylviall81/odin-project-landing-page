@@ -1,13 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #1f2937;
     color: #F9FAF8;
+    
 }
 
 .container {
     width: 90%;
     margin: 0 auto;
+    display: flex;
+}
+
+.header-wrapper{
+    align-items: flex-end;
+    justify-content: space-around;
+
 }
 
 header {
@@ -29,11 +42,22 @@ nav a {
     color: #E5E7EB;
     text-decoration: none;
 }
+nav{
+    display: flex;
+    align-items: flex-end;
+}
+
 
 .hero {
     background-color: #1f2937;
     padding: 100px 0;
-    text-align: center;
+    /* text-align: center; */
+}
+
+.hero-wrapper{
+    padding: 40px;
+    flex: 1;
+
 }
 
 .hero h1 {
@@ -54,6 +78,20 @@ nav a {
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.hero-content{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+}
+.hero-image{
+    padding:10px;
+    margin: 0 auto;
+    width: 45%;
+   
 }
 
 .information {
@@ -114,6 +152,15 @@ nav a {
     font-weight: bold;
     font-size: 24px;
     color: #3882F6;
+}
+
+.call-to-action button {
+    background-color: transparent;
+    color:  #3882F6;
+    border: 1px solid  #3882F6;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 footer {
