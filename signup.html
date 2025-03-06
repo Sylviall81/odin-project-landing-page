@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Odin Project</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+<body>
+    <header>
+        <div class="container header-wrapper">
+            <div class="header-logo">Logo</div>
+            <nav>
+                <a href="index.html">Home</a>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="signup-section">
+        <div class="container signup-container">
+            <div class="signup-card">
+                <h2>Create Your Account</h2>
+                <p>Join us today and get access to all our awesome features!</p>
+                
+                <form class="signup-form">
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Create a password" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+                    </div>
+                    
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to the Terms and Conditions</label>
+                    </div>
+                    
+                    <button type="submit" class="signup-button">Create Account</button>
+                </form>
+                
+                <div class="login-link">
+                    <p>Already have an account? <a href="#">Log In</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container footer-wrapper">
+            <p>Copyright the odin project 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
+
